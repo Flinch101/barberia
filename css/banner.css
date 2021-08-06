@@ -1,0 +1,20 @@
+.banner {
+  margin-top: -60px;
+  position: relative;
+  z-index: -1000;
+}
+
+.banner .contenedor {
+  width: 100%;
+  position: absolute;
+  font-size: 15px;
+  top: 50%;
+  left: 50%;
+  transform: translateX(-50%) translateY(-50%);
+  color: rgba(255, 255, 255, 0.7);
+  text-align: center;
+}
+
+.banner img {
+  width: 100%;
+}

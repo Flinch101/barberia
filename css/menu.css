@@ -1,0 +1,27 @@
+.nav {
+  position: absolute;
+  top: 60px;
+  left: -100%;
+  width: 100%;
+  transition: all 0.3s;
+}
+
+.menu {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.menu__link {
+  display: block;
+  padding: 15px;
+  outline: 1px solid rgba(0, 0, 0, 0.3);
+  background: rgba(251, 169, 25, 1);
+  text-decoration: none;
+  color: #fff;
+}
+
+.menu__link:hover , .selectMenu{
+  border-left: 10px solid #fff;
+  transition: all 0.3s;
+}

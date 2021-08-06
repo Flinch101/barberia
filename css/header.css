@@ -1,0 +1,26 @@
+.header {
+  height: 60px;
+}
+
+.header .contenedor {
+  display: flex;
+  justify-content: space-between;
+}
+
+.logo, .icon-list{
+  margin: 5px;
+  color: #fff;
+}
+
+.icon-list {
+  display: block;
+  width: 40px;
+  height: 40px;
+  font-size: 30px;
+  background: #fba919;
+  text-align: center;
+  line-height: 40px;
+  border-radius: 5px;
+  margin-left: auto;
+  cursor: pointer;
+}

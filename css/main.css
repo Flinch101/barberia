@@ -1,0 +1,41 @@
+/* Estilos */
+@import url('https://fonts.googleapis.com/css2?family=Heebo:wght@300&display=swap'); /* Letra */
+@import url('fontello.css'); /* Iconos Fontello */
+
+/* Estilos Vinculados */
+@import url("header.css");  /* Header */
+@import url("menu.css");
+
+@import url("banner.css");  /* Main */
+@import url("info.css");
+@import url("cursos.css");
+
+@import url("footer.css");  /* Footer */
+
+@import url("responsive.css");  /* Responsive */
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+  overflow: hidden;
+  overflow-x: hidden;
+}
+
+body {
+  font-family: Heebo;
+}
+
+.e{
+  left: 0;
+}
+
+hr {
+  background: gray;
+  width: 70%;
+  margin: auto;
+}

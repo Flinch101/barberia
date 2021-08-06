@@ -1,0 +1,26 @@
+.footer {
+  width: 100%;
+  background: #fba919;
+  margin-top: 30px;
+}
+
+.redes-sociales{
+  text-align: center;
+}
+
+.redes-sociales a{
+  text-decoration: none;
+  color: black;
+  font-size: 50px;
+}
+
+.footer h4{
+  padding: 10px;
+  text-align: center;
+}
+
+.footer-link{
+  text-align: center;
+  padding-bottom: 30px;
+  font-size: 10px;
+}

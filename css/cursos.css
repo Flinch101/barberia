@@ -1,0 +1,30 @@
+.cursos__titulo {
+  margin: 10px;
+  text-align: center;
+}
+
+.cursos__columna{
+  position: relative;
+  margin: auto;
+  margin: 20px;
+}
+
+.cursos__descripcion{
+  color: #fff;
+  position: absolute;
+  top: 0;
+  left: 0;
+  background: rgba(0, 0, 0, 0.5);
+  width: 50%;
+  height: 100%;
+
+  font-size: 15px;
+}
+
+.cursos__subtitulo {
+  text-align: center;
+}
+
+.cursos__descripcion__parrafo {
+  margin: 10px;
+}
